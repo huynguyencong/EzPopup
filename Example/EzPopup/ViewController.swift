@@ -19,8 +19,7 @@ class ViewController: UIViewController {
         customAlertVC.titleString = "Congratulation"
         customAlertVC.messageString = "You just showed a custom alert view controller."
         
-        let popupVC = PopupViewController(contentController: customAlertVC, popupWidth: 300)
-        popupVC.canTapOutsideToDismiss = false
+        let popupVC = PopupViewController(contentController: customAlertVC, position: .right(60), popupWidth: 300)
         present(popupVC, animated: true, completion: nil)
     }
     
