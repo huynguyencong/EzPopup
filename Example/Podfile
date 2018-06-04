@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EzPopup_Example' do
+  pod 'EzPopup', :path => '../'
+
+  target 'EzPopup_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
