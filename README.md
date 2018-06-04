@@ -1,6 +1,5 @@
 # EzPopup
 
-[![CI Status](https://img.shields.io/travis/huynguyencong/EzPopup.svg?style=flat)](https://travis-ci.org/huynguyencong/EzPopup)
 [![Version](https://img.shields.io/cocoapods/v/EzPopup.svg?style=flat)](https://cocoapods.org/pods/EzPopup)
 [![License](https://img.shields.io/cocoapods/l/EzPopup.svg?style=flat)](https://cocoapods.org/pods/EzPopup)
 [![Platform](https://img.shields.io/cocoapods/p/EzPopup.svg?style=flat)](https://cocoapods.org/pods/EzPopup)
