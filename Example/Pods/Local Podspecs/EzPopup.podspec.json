@@ -1,8 +1,8 @@
 {
   "name": "EzPopup",
   "version": "0.1.0",
-  "summary": "A short description of EzPopup.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "EzPopup will help you to show popup in the simplest way.",
+  "description": "EzPopup will help you to show your custom popup. You just need to provide your view or view controller.",
   "homepage": "https://github.com/huynguyencong/EzPopup",
   "license": {
     "type": "MIT",

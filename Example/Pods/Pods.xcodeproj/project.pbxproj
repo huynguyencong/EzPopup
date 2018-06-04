@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		195290D4916B62D8A19622DD188689D9 /* Pods-EzPopup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AC1CB016133A12C08EA3FF8E18F6E3 /* Pods-EzPopup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D2A736460D5E6837E59BA1E448A9B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		528D5A1D12302FD372D2E3ED6E7DDF3D /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0511A69B5F42CF20C22642B53C85C5F /* EzPopup-dummy.m */; };
+		222254020384BCED817543F4E648C4D0 /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FED9D7375DE364541BE6A6D6E78C50 /* EzPopup-dummy.m */; };
 		575EB626BA253F8417101E890A95C2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		61AABE82C0F72EE77F95AE60EC7D158B /* Pods-EzPopup_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F26BA77D2E252E478708436DAA7AC5 /* Pods-EzPopup_Example-dummy.m */; };
 		88ADEBAE2B439D6D7B6A6DE9F695DAED /* Pods-EzPopup_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B0D54FE8DD7FE5726FF5E4822F7994 /* Pods-EzPopup_Tests-dummy.m */; };
-		B0F8005C048F07E732848415CC2C85D3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000ABAC22AC650585131CD8553B5ED5 /* ReplaceMe.swift */; };
 		DDC8058020419E0B6B1F9855B1E56540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E741E76BBD49CF701C80550B913A0265 /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4922B4D855F59492661252495028BD04 /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E741E76BBD49CF701C80550B913A0265 /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17025F6C36F0E932863366653E34664F /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC1B6D3DC6B1C14190938B91F736F501 /* Pods-EzPopup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 578D28330747915AC045F954EC539A29 /* Pods-EzPopup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1A918B8489B0817A7D2F3837A037BC /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA36499CFB5F02F20D03AC7D986BBA7 /* PopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,38 +33,38 @@
 		0DA7CD277B6CF178AC09B2F32A9B7AD5 /* Pods_EzPopup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Tests.framework; path = "Pods-EzPopup_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C03DCF93C4A2587FD012302440C1C3 /* Pods-EzPopup_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EzPopup_Tests.modulemap"; sourceTree = "<group>"; };
 		14F26BA77D2E252E478708436DAA7AC5 /* Pods-EzPopup_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EzPopup_Example-dummy.m"; sourceTree = "<group>"; };
+		17025F6C36F0E932863366653E34664F /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
 		24AC76D9FF311730D41C57764FBEB2FE /* Pods_EzPopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Example.framework; path = "Pods-EzPopup_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E17E7AACE4E2D2694E0E6ADEF4CFE3 /* Pods-EzPopup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4922B4D855F59492661252495028BD04 /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
+		489CC9D42196B8DDF92E19B4F19A03A8 /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
 		4959B19CA64C1D95D268E6FBB6304DEC /* Pods-EzPopup_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A147CC17EC0C1DE270E61EB8B525FA8 /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
 		55DEB621B14D81D9294B96DB45F86A69 /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		578D28330747915AC045F954EC539A29 /* Pods-EzPopup_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Example-umbrella.h"; sourceTree = "<group>"; };
-		6000ABAC22AC650585131CD8553B5ED5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EzPopup/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5F68C03C3033B63DE9EA945A8578CE56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		60213A44FC691AA910D75BF04F16B4AE /* Pods-EzPopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		614EEDB0957A8748191BD742194ED759 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CBA29E7C9645A5F81E2BFE04E737E22 /* Pods-EzPopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D6BFEB9980C5370DDEDAE460FF236D7 /* Pods-EzPopup_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EzPopup_Example.modulemap"; sourceTree = "<group>"; };
+		729F509A0CD9F91028BC64DD8A6AC90F /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
 		7794640136861833BE8A87D335059AD3 /* Pods-EzPopup_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EzPopup_Tests-resources.sh"; sourceTree = "<group>"; };
-		7E8D83B5DDE063103C762F319A537F9C /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
+		7BD20DA8E50E5BCDBCC134E2D0406294 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		803D913668874BD547B0E1A2EE32FF89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9160C20D6620884B3BFC941683D809FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		91884C619152D8C2359C2444B5E8CD05 /* EzPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EzPopup.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98BBFD92AFE6872CAB2DB573510FF919 /* Pods-EzPopup_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A2F37941E86A1DDD81C7C35D83F7D66B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A342968AFF9B928DA6202CD4CB4B652D /* Pods-EzPopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A3DAC881C442827FE900B20D32D9B9A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B2AC1CB016133A12C08EA3FF8E18F6E3 /* Pods-EzPopup_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B4FED9D7375DE364541BE6A6D6E78C50 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
 		BB75C60AB4F5A37F7C3E0F7CAEDC1D43 /* Pods-EzPopup_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EzPopup_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BEB916195014D20DEB6B6555F297873F /* Pods-EzPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0511A69B5F42CF20C22642B53C85C5F /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
-		C5400A8E7AFE5C0A6995ACF5AA163776 /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
+		C15EF921CAA7785F0E0868661A107A33 /* EzPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EzPopup.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D95CC6F61E61DBE5A838AD46F328F1F4 /* Pods-EzPopup_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EzPopup_Example-resources.sh"; sourceTree = "<group>"; };
+		DFA36499CFB5F02F20D03AC7D986BBA7 /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
+		E29781AD9058F7DA6940C72C2E037431 /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
 		F2AE180DF62A8EBEC051939A6C0CEF6B /* Pods-EzPopup_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5B0D54FE8DD7FE5726FF5E4822F7994 /* Pods-EzPopup_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EzPopup_Tests-dummy.m"; sourceTree = "<group>"; };
 		FBA6F1D632CF677B9BC61DE5E5A81D32 /* Pods-EzPopup_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EzPopup_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FC840EFB850F4CD8FA7DC7DA02DA16DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +98,20 @@
 		2D87607DE746B1333A3DE0AB764A44B6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A104922F6EB8E36F7B86D8A379B58998 /* EzPopup */,
+				3FF0BF7F422A0B3F4A8425531627ED2B /* EzPopup */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FF0BF7F422A0B3F4A8425531627ED2B /* EzPopup */ = {
+			isa = PBXGroup;
+			children = (
+				DFA36499CFB5F02F20D03AC7D986BBA7 /* PopupViewController.swift */,
+				7FB3A9351C09B990CC1E516BD0939B91 /* Pod */,
+				7077229E76F6E8180573BA1012C5D83D /* Support Files */,
+			);
+			name = EzPopup;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		635CE1278EE31FAF0CE79C66019127D3 /* Products */ = {
@@ -113,14 +124,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CB1BA3C5B36B4B341D8F1EBD95C1324 /* Pod */ = {
+		7077229E76F6E8180573BA1012C5D83D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91884C619152D8C2359C2444B5E8CD05 /* EzPopup.podspec */,
-				9160C20D6620884B3BFC941683D809FD /* LICENSE */,
-				FC840EFB850F4CD8FA7DC7DA02DA16DA /* README.md */,
+				489CC9D42196B8DDF92E19B4F19A03A8 /* EzPopup.modulemap */,
+				729F509A0CD9F91028BC64DD8A6AC90F /* EzPopup.xcconfig */,
+				B4FED9D7375DE364541BE6A6D6E78C50 /* EzPopup-dummy.m */,
+				E29781AD9058F7DA6940C72C2E037431 /* EzPopup-prefix.pch */,
+				17025F6C36F0E932863366653E34664F /* EzPopup-umbrella.h */,
+				7BD20DA8E50E5BCDBCC134E2D0406294 /* Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EzPopup";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -132,6 +147,16 @@
 				635CE1278EE31FAF0CE79C66019127D3 /* Products */,
 				A57ADE0B182E00F2CDC152CB04E4BF94 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7FB3A9351C09B990CC1E516BD0939B91 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C15EF921CAA7785F0E0868661A107A33 /* EzPopup.podspec */,
+				A3DAC881C442827FE900B20D32D9B9A5 /* LICENSE */,
+				5F68C03C3033B63DE9EA945A8578CE56 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9BD165F13241A253D9434512403494D3 /* Pods-EzPopup_Tests */ = {
@@ -152,17 +177,6 @@
 			path = "Target Support Files/Pods-EzPopup_Tests";
 			sourceTree = "<group>";
 		};
-		A104922F6EB8E36F7B86D8A379B58998 /* EzPopup */ = {
-			isa = PBXGroup;
-			children = (
-				6000ABAC22AC650585131CD8553B5ED5 /* ReplaceMe.swift */,
-				7CB1BA3C5B36B4B341D8F1EBD95C1324 /* Pod */,
-				CB67794508D00F0AA24DE646E2036644 /* Support Files */,
-			);
-			name = EzPopup;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		A57ADE0B182E00F2CDC152CB04E4BF94 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,20 +192,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB67794508D00F0AA24DE646E2036644 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A147CC17EC0C1DE270E61EB8B525FA8 /* EzPopup.modulemap */,
-				7E8D83B5DDE063103C762F319A537F9C /* EzPopup.xcconfig */,
-				C0511A69B5F42CF20C22642B53C85C5F /* EzPopup-dummy.m */,
-				C5400A8E7AFE5C0A6995ACF5AA163776 /* EzPopup-prefix.pch */,
-				4922B4D855F59492661252495028BD04 /* EzPopup-umbrella.h */,
-				A2F37941E86A1DDD81C7C35D83F7D66B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EzPopup";
 			sourceTree = "<group>";
 		};
 		D26CB5D87A1C78030D88EF986B294D33 /* Pods-EzPopup_Example */ = {
@@ -271,7 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58AEB328CEBB51105809C5F5E8829FBB /* Build configuration list for PBXNativeTarget "EzPopup" */;
 			buildPhases = (
-				2BF041AA3EEC9E90F45AEC373A3E87D6 /* Sources */,
+				84DB436925B820D11334AF551AD03198 /* Sources */,
 				24BB3EAA70217BA9DB3507C525A6F360 /* Frameworks */,
 				E8DD896CA28E5C34BD99866873AAAC59 /* Headers */,
 			);
@@ -339,20 +339,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BF041AA3EEC9E90F45AEC373A3E87D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				528D5A1D12302FD372D2E3ED6E7DDF3D /* EzPopup-dummy.m in Sources */,
-				B0F8005C048F07E732848415CC2C85D3 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		503CB1486E897635CCE9C14E47508036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				61AABE82C0F72EE77F95AE60EC7D158B /* Pods-EzPopup_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DB436925B820D11334AF551AD03198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222254020384BCED817543F4E648C4D0 /* EzPopup-dummy.m in Sources */,
+				EE1A918B8489B0817A7D2F3837A037BC /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +370,7 @@
 /* Begin XCBuildConfiguration section */
 		076DF5D90BFB7134116801F8F4C4E241 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E8D83B5DDE063103C762F319A537F9C /* EzPopup.xcconfig */;
+			baseConfigurationReference = 729F509A0CD9F91028BC64DD8A6AC90F /* EzPopup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -564,7 +564,7 @@
 		};
 		6E8E536E655EE35B86A3D3297D3A0F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E8D83B5DDE063103C762F319A537F9C /* EzPopup.xcconfig */;
+			baseConfigurationReference = 729F509A0CD9F91028BC64DD8A6AC90F /* EzPopup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
