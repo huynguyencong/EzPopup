@@ -38,6 +38,8 @@ public class PopupViewController: UIViewController {
     public var backgroundColor = UIColor.black
     public var canTapOutsideToDismiss = true
     
+    public var cornerRadius: CGFloat = 0
+    
     public var contentController: UIViewController?
     public var contentView: UIView?
     
@@ -107,6 +109,11 @@ public class PopupViewController: UIViewController {
         }
         
         view.addSubview(contentView)
+        
+        if cornerRadius > 0 {
+            contentView.layer.cornerRadius = cornerRadius
+            contentView.layer.masksToBounds = true
+        }
         
         addSizeConstraints()
         addPositionConstraints()
