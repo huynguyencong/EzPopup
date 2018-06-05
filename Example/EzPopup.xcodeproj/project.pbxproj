@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004F8C9720C695D900BA2856 /* NumberPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F8C9620C695D900BA2856 /* NumberPickerViewController.swift */; };
 		00E0DE3220C5275600CD7F3D /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0DE3120C5275600CD7F3D /* CustomAlertViewController.swift */; };
 		4C37678759C1C14008EF7D33 /* Pods_EzPopup_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823D63696653032CBE0FA091 /* Pods_EzPopup_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004F8C9620C695D900BA2856 /* NumberPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerViewController.swift; sourceTree = "<group>"; };
 		00E0DE3120C5275600CD7F3D /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
 		0198EE9385313B447CB4D1B3 /* Pods-EzPopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPopup_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.release.xcconfig"; sourceTree = "<group>"; };
 		260EC5292274C33C8A09DEC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				00E0DE3120C5275600CD7F3D /* CustomAlertViewController.swift */,
+				004F8C9620C695D900BA2856 /* NumberPickerViewController.swift */,
 			);
 			name = "Example for EzPopup";
 			path = EzPopup;
@@ -376,6 +379,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				004F8C9720C695D900BA2856 /* NumberPickerViewController.swift in Sources */,
 				00E0DE3220C5275600CD7F3D /* CustomAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
