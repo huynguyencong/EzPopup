@@ -8,6 +8,8 @@
 import UIKit
 
 protocol PopupViewControllerDelegate: class {
+    
+    /// It is called when pop up is dismissed by tap outside
     func popupViewControllerDidDismiss(sender: PopupViewController)
 }
 
@@ -19,41 +21,84 @@ extension PopupViewControllerDelegate {
 public class PopupViewController: UIViewController {
     
     public enum PopupPosition {
+        /// Align center X, center Y with offset param
         case center(CGPoint?)
+        
+        /// Top left anchor point with offset param
         case topLeft(CGPoint?)
+        
+        /// Top right anchor point with offset param
         case topRight(CGPoint?)
+        
+        /// Bottom left anchor point with offset param
         case bottomLeft(CGPoint?)
+        
+        /// Bottom right anchor point with offset param
         case bottomRight(CGPoint?)
+        
+        /// Top anchor, align center X with top padding param
         case top(CGFloat)
+        
+        /// Left anchor, align center Y with left padding param
         case left(CGFloat)
+        
+        /// Bottom anchor, align center X with bottom padding param
         case bottom(CGFloat)
+        
+        /// Right anchor, align center Y with right padding param
         case right(CGFloat)
     }
     
-    public var popupWidth: CGFloat?
-    public var popupHeight: CGFloat?
-    public var position: PopupPosition = .center(nil)
+    /// Popup width, it's nil if width is determined by view's intrinsic size
+    private(set) public var popupWidth: CGFloat?
     
+    /// Popup height, it's nil if width is determined by view's intrinsic size
+    private(set) public var popupHeight: CGFloat?
+    
+    /// Popup position, default is center
+    private(set) public var position: PopupPosition = .center(nil)
+    
+    /// Background alpha, default is 0.5
     public var backgroundAlpha: CGFloat = 0.5
+    
+    /// Background color, default is black
     public var backgroundColor = UIColor.black
+    
+    /// Allow tap outside popup to dismiss, default is true
     public var canTapOutsideToDismiss = true
     
+    /// Corner radius, default is 0 (no rounded corner)
     public var cornerRadius: CGFloat = 0
+    
+    /// Shadow enabled, default is true
     public var shadowEnabled = true
     
-    public var contentController: UIViewController?
-    public var contentView: UIView?
+    /// The pop up view controller. It's not mandatory.
+    private(set) public var contentController: UIViewController?
     
+    /// The pop up view
+    private(set) public var contentView: UIView?
+    
+    /// The delegate to receive pop up event
     weak var delegate: PopupViewControllerDelegate?
     
     private var containerView = UIView()
     
     // MARK: -
     
+    /// NOTE: Don't use this init method
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
+    /**
+     Init with content view controller. Your pop up content is a view controller (easiest way to design it is using storyboard)
+     - Parameters:
+        - contentController: Popup content view controller
+        - position: Position of popup content, default is center
+        - popupWidth: Width of popup content. If it isn't set, width will be determine by popup content view intrinsic size.
+        - popupHeight: Height of popup content. If it isn't set, height will be determine by popup content view intrinsic size.
+     */
     public init(contentController: UIViewController, position: PopupPosition = .center(nil), popupWidth: CGFloat? = nil, popupHeight: CGFloat? = nil) {
         super.init(nibName: nil, bundle: nil)
         self.contentController = contentController
@@ -65,6 +110,14 @@ public class PopupViewController: UIViewController {
         commonInit()
     }
     
+    /**
+     Init with content view
+     - Parameters:
+         - contentView: Popup content view
+         - position: Position of popup content, default is center
+         - popupWidth: Width of popup content. If it isn't set, width will be determine by popup content view intrinsic size.
+         - popupHeight: Height of popup content. If it isn't set, height will be determine by popup content view intrinsic size.
+     */
     public init(contentView: UIView, position: PopupPosition = .center(nil), popupWidth: CGFloat? = nil, popupHeight: CGFloat? = nil) {
         super.init(nibName: nil, bundle: nil)
         self.contentView = contentView
