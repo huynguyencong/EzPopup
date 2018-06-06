@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EzPopup'
-  s.version          = '0.1.0'
-  s.summary          = 'EzPopup will help you to show popup in the simplest way.'
+  s.version          = '1.0'
+  s.summary          = 'EzPopup will help you to show a popup in the simplest way.'
 
 
 
