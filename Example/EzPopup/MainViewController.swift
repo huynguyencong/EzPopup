@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  EzPopup
 //
 //  Created by huynguyencong on 06/04/2018.
@@ -9,10 +9,12 @@
 import UIKit
 import EzPopup
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     let customAlertVC = CustomAlertViewController.instantiate()
     let pickerVC = NumberPickerViewController.instantiate()
+    
+    // MARK: - Actions
 
     @IBAction func showAtCenterButtonTapped(_ sender: Any) {
         guard let customAlertVC = customAlertVC else { return }
@@ -21,7 +23,7 @@ class ViewController: UIViewController {
         customAlertVC.messageString = "You just showed a custom alert view controller."
         
         let popupVC = PopupViewController(contentController: customAlertVC, popupWidth: 300)
-        popupVC.cornerRadius = 10
+        popupVC.cornerRadius = 5
         present(popupVC, animated: true, completion: nil)
     }
     
@@ -32,12 +34,27 @@ class ViewController: UIViewController {
         
         let popupVC = PopupViewController(contentController: pickerVC, position: .topRight(CGPoint(x: 16, y: 40)), popupWidth: 100, popupHeight: 200)
         popupVC.canTapOutsideToDismiss = false
+        popupVC.cornerRadius = 5
+        present(popupVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func showFullCustomPopupButtonTapped(_ sender: Any) {
+        guard let pickerVC = pickerVC else { return }
+        
+        pickerVC.delegate = self
+        
+        let popupVC = PopupViewController(contentController: pickerVC, position: .bottom(20), popupWidth: 200, popupHeight: 300)
+        popupVC.backgroundAlpha = 0.3
+        popupVC.backgroundColor = .black
+        popupVC.canTapOutsideToDismiss = true
+        popupVC.cornerRadius = 10
+        popupVC.shadowEnabled = true
         present(popupVC, animated: true, completion: nil)
     }
     
 }
 
-extension ViewController: NumberPickerViewControllerDelegate {
+extension MainViewController: NumberPickerViewControllerDelegate {
     func numberPickerViewController(sender: NumberPickerViewController, didSelectNumber number: Int) {
         dismiss(animated: true) {
             let alertController = UIAlertController(title: "Good luck", message: "Good luck with your number \(number)", preferredStyle: .alert)
