@@ -170,7 +170,11 @@ public class PopupViewController: UIViewController {
     
     private func setupViews() {
         if let contentController = contentController {
-            addChildViewController(contentController)
+            #if swift(>=4.2)
+                addChild(contentController)
+            #else
+                addChildViewController(contentController)
+            #endif
         }
         
         addViews()
