@@ -13,8 +13,9 @@ If you are struggling in finding a way to show a view or view controller as a po
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-Require Swift 4 or later, iOS 8 or later. 
+## Compatibility
+- iOS 9 and later.
+- Swift 5.0 and later (for earlier Swift version, please use earlier ImageScrollView version).
 
 ## Installation
 
