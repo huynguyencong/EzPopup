@@ -7,15 +7,15 @@
 
 import UIKit
 
-protocol PopupViewControllerDelegate: class {
+public protocol PopupViewControllerDelegate: class {
     
     /// It is called when pop up is dismissed by tap outside
-    func popupViewControllerDidDismiss(sender: PopupViewController)
+    func popupViewControllerDidDismissByTapGesture(_ sender: PopupViewController)
 }
 
 // optional func
-extension PopupViewControllerDelegate {
-    func popupViewControllerDidDismiss(sender: PopupViewController) {}
+public extension PopupViewControllerDelegate {
+    func popupViewControllerDidDismissByTapGesture(_ sender: PopupViewController) {}
 }
 
 public class PopupViewController: UIViewController {
@@ -80,7 +80,7 @@ public class PopupViewController: UIViewController {
     private(set) public var contentView: UIView?
     
     /// The delegate to receive pop up event
-    weak var delegate: PopupViewControllerDelegate?
+    public weak var delegate: PopupViewControllerDelegate?
     
     private var containerView = UIView()
     
@@ -295,7 +295,7 @@ public class PopupViewController: UIViewController {
     
     @objc func dismissTapGesture(gesture: UIGestureRecognizer) {
         dismiss(animated: true) {
-            self.delegate?.popupViewControllerDidDismiss(sender: self)
+            self.delegate?.popupViewControllerDidDismissByTapGesture(self)
         }
     }
 }
