@@ -24,6 +24,7 @@ class MainViewController: UIViewController {
         
         let popupVC = PopupViewController(contentController: customAlertVC, popupWidth: 300)
         popupVC.cornerRadius = 5
+        popupVC.delegate = self
         present(popupVC, animated: true, completion: nil)
     }
     
@@ -49,6 +50,7 @@ class MainViewController: UIViewController {
         popupVC.canTapOutsideToDismiss = true
         popupVC.cornerRadius = 10
         popupVC.shadowEnabled = true
+        popupVC.delegate = self
         present(popupVC, animated: true, completion: nil)
     }
     
@@ -64,5 +66,11 @@ extension MainViewController: NumberPickerViewControllerDelegate {
             
             self.present(alertController, animated: true)
         }
+    }
+}
+
+extension MainViewController: PopupViewControllerDelegate {
+    func popupViewControllerDidDismissByTapGesture(_ sender: PopupViewController) {
+        print("log - popupViewControllerDidDismissByTapGesture")
     }
 }
