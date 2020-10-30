@@ -7,92 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		424D1318F9756F079BEB240736F417B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		657B15CE9A474621639C9A79F6D0AD7F /* Pods-EzPopup_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A881592B2333412F21553146ACEBAF26 /* Pods-EzPopup_Tests-dummy.m */; };
-		7A418F687D45FFDF7C081BDD7A2053F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		98A01E2F1285DB9CB909CDD5E87D6A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A95123EC1BEA8E95FC379A56C4BB2625 /* Pods-EzPopup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C67ED69C5DDBF11ED3C18C776FCE4E7 /* Pods-EzPopup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDF386CC7389BD0C1988D528410ED1C1 /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12D74AD15FA75168B135FF6C582555 /* EzPopup-dummy.m */; };
-		C6DBCB090692839FA9640BB28A207276 /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4261833D805058BF3F0ED638344500DB /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB137B543B61EEFD2866CA343675A9F2 /* Pods-EzPopup_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B25DF007BB23A4A0406CC6C6AB603 /* Pods-EzPopup_Example-dummy.m */; };
-		F4025A793F795FACE0449F515FA4A6BB /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501921B394E409B1826C70C17193D38B /* PopupViewController.swift */; };
-		FF2E4620F4B674B37163BC05A20906B8 /* Pods-EzPopup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F91F155C59F16BBD206E545257BB24B /* Pods-EzPopup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175F76BE58A364CDB048165CD2855538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2755E264292294A20B2090FEAB73E210 /* Pods-EzPopup_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ED7C117FF5DABCEA0D97CB1507033E /* Pods-EzPopup_Tests-dummy.m */; };
+		34E60ED373398DDC75778DC8B0D769FC /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA031F4C0F4275D631241254DFF7857D /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D5A88F7F4D8823B2BD7DF8EA5F1678B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		64DADB402EF5F83CA27384169BF6E944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		79F7622F0DBE2C46294AB235CBE6A5DD /* Pods-EzPopup_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC1595D0824A0021F8F8ED3C758BED /* Pods-EzPopup_Example-dummy.m */; };
+		8127D107F1BDA547AD0B549BF9762EF4 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D16E2D2E0B92389BAAF21F6236384 /* PopupViewController.swift */; };
+		995C9AD0FB98B06F38D6958DCB875B1D /* Pods-EzPopup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD0B77242A5631B3CD9F08931341D2 /* Pods-EzPopup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F00EDC154A174BFB6DCB6A46CEC847 /* Pods-EzPopup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F3D9701745A86B834746B4AB4F94FD /* Pods-EzPopup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EEB4C57FC95788D96D6CFAF990C49E /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62FC6552B787189CE4B77436BA594C9 /* EzPopup-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		755C946330542DAEDC9B160F5BC58F0E /* PBXContainerItemProxy */ = {
+		1F31A50B00B387BED6946DF7CF79305C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4C077553837A742F4666C704E677436;
+			remoteGlobalIDString = 08A1D84C2FADBB24163DC3D193767386;
 			remoteInfo = EzPopup;
 		};
-		F3B9855EE03B1D37CFBEAFCCA868ED7A /* PBXContainerItemProxy */ = {
+		F631AE590B4FC8E28A508B72512AF971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20B1CEE29BB3CB4F503C7B64A5782442;
+			remoteGlobalIDString = C07C1F673E6884BAB1D006C0B95B82C8;
 			remoteInfo = "Pods-EzPopup_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D01ED8A781E27740F39683A4443DFB /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		03FA64DBF3F53B42C21D2DF78DF60877 /* Pods-EzPopup_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		05AD1E920A214F261D709B1BE26E1BCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0761C74AA4ED02AEB9FBD3094D70700A /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
-		0C56FB6FC43DBFA083E0F30C62102CF7 /* Pods-EzPopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Example.release.xcconfig"; sourceTree = "<group>"; };
-		10C040A29D5FF90C73C9CFF62DCCDC6C /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
-		18BBB0E400AD01A0553456E2CE24F382 /* Pods-EzPopup_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F6116ADBDC30F9AB4459C17CE87E199 /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
-		2C67ED69C5DDBF11ED3C18C776FCE4E7 /* Pods-EzPopup_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Example-umbrella.h"; sourceTree = "<group>"; };
-		3C3A35F5E50BA1D20EB7C07BFFA35561 /* Pods-EzPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4261833D805058BF3F0ED638344500DB /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
-		501921B394E409B1826C70C17193D38B /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
-		54C85D0FF0B84FCCA5CBA7F07F5AFF34 /* Pods-EzPopup_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EzPopup_Example.modulemap"; sourceTree = "<group>"; };
-		5A5081ABC64219BF955B752C3C2A0D25 /* Pods_EzPopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Example.framework; path = "Pods-EzPopup_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EA56613C4BB4B7B000DFCA6473EF4D7 /* Pods-EzPopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5EE146B2F42B923E809EA4267E056984 /* Pods-EzPopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5F75C2D6A04B5288289FED4CCE6CF11D /* Pods-EzPopup_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Tests-Info.plist"; sourceTree = "<group>"; };
-		67C1D809D6220A7D668F9493923D0291 /* Pods-EzPopup_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EzPopup_Tests.modulemap"; sourceTree = "<group>"; };
-		6F91F155C59F16BBD206E545257BB24B /* Pods-EzPopup_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Tests-umbrella.h"; sourceTree = "<group>"; };
-		702114C8C4EE6CF23E30C76A0B8540FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		777102DEB85ADDBDAB56338FE2620EE9 /* Pods_EzPopup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Tests.framework; path = "Pods-EzPopup_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		925DF0D14D6EC261B888237FCDF86ED3 /* EzPopup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EzPopup-Info.plist"; sourceTree = "<group>"; };
-		9B3864F4F818D62D5A25FF74ED15763C /* Pods-EzPopup_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EzPopup_Example-frameworks.sh"; sourceTree = "<group>"; };
+		05CC1595D0824A0021F8F8ED3C758BED /* Pods-EzPopup_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EzPopup_Example-dummy.m"; sourceTree = "<group>"; };
+		06F3D9701745A86B834746B4AB4F94FD /* Pods-EzPopup_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Example-umbrella.h"; sourceTree = "<group>"; };
+		0BBD0B77242A5631B3CD9F08931341D2 /* Pods-EzPopup_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Tests-umbrella.h"; sourceTree = "<group>"; };
+		303F54F7B1100D766A5513D505AC542F /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		321EBDFAF9FEF77BEB6F2D14B03D2A19 /* Pods-EzPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5008B7C29EB74EA77195F725F6BBD22C /* EzPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EzPopup.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		546EEF3D65715DB737B8FC915A37917A /* EzPopup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.release.xcconfig; sourceTree = "<group>"; };
+		56E35130F36209954C76916FEC8ED3E4 /* Pods-EzPopup_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6549DC6DBD77107D9CDEE95FBF2359FC /* Pods-EzPopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6579468CD1049BE11882525DA90DA802 /* Pods-EzPopup_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Example-Info.plist"; sourceTree = "<group>"; };
+		65BE18177C4E448E8EE008E49FB9BC62 /* Pods-EzPopup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7426070CFD98D1C349FAEFA2A9C05B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9007001B8592B15BDA5252C12B978903 /* Pods_EzPopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Example.framework; path = "Pods-EzPopup_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A881592B2333412F21553146ACEBAF26 /* Pods-EzPopup_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EzPopup_Tests-dummy.m"; sourceTree = "<group>"; };
-		C4BA79F23ED53BB4D98AC7F864238A1C /* Pods-EzPopup_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Example-Info.plist"; sourceTree = "<group>"; };
-		C76B25DF007BB23A4A0406CC6C6AB603 /* Pods-EzPopup_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EzPopup_Example-dummy.m"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D386424695749CD79D470105760272A3 /* Pods-EzPopup_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D905885F7A44B128A2EDA4B2CFC4751D /* EzPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EzPopup.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F7DA0E333BBB00BE7DC423A27C22E324 /* Pods-EzPopup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE12D74AD15FA75168B135FF6C582555 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
+		9DAD9AF6B66CBC42DF390F7E5B287CAE /* Pods-EzPopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A0F7872E939195A1BDEED2596A678FAC /* EzPopup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EzPopup-Info.plist"; sourceTree = "<group>"; };
+		A36D54AB2E1E66484BA10423B935A6C6 /* Pods_EzPopup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Tests.framework; path = "Pods-EzPopup_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DEF683207706C55CB8FFDC854A02C8 /* Pods-EzPopup_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B33D16E2D2E0B92389BAAF21F6236384 /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
+		B4ED7C117FF5DABCEA0D97CB1507033E /* Pods-EzPopup_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EzPopup_Tests-dummy.m"; sourceTree = "<group>"; };
+		B57A5236659D915B47EEAB586EFCB368 /* Pods-EzPopup_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB5936EBA2E7114A390926E59F258957 /* Pods-EzPopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C861F804279DD1C9C3297A31722B4AEB /* Pods-EzPopup_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Tests-Info.plist"; sourceTree = "<group>"; };
+		C8C140DED8687C76550861D4A027D801 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C8FF4277A6CB986698FCA294199EC7AB /* Pods-EzPopup_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EzPopup_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D1F07EE20714B95AA488773F29A489EA /* Pods-EzPopup_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EzPopup_Example.modulemap"; sourceTree = "<group>"; };
+		DA031F4C0F4275D631241254DFF7857D /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
+		DA3A89755F4266B6F1490D104FCA44C2 /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
+		E62FC6552B787189CE4B77436BA594C9 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
+		EE353B6E4A182F6C997B4BEE84483AA3 /* Pods-EzPopup_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EzPopup_Tests.modulemap"; sourceTree = "<group>"; };
+		F2BC3F200EEF5E97521779B461DB2E19 /* EzPopup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4084971262C8D3ED97DA0D5FB2F52F2B /* Frameworks */ = {
+		493ED6312F7553FAB215F38425F8CEAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A418F687D45FFDF7C081BDD7A2053F9 /* Foundation.framework in Frameworks */,
+				175F76BE58A364CDB048165CD2855538 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		488A35A5D3F1FB299AFE142A6B81A83D /* Frameworks */ = {
+		6103D9B329199E09092F217BAEDD3C17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				424D1318F9756F079BEB240736F417B9 /* Foundation.framework in Frameworks */,
+				64DADB402EF5F83CA27384169BF6E944 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52BB26196093A263B14E4E5C2A8C2B6C /* Frameworks */ = {
+		BD271DEC9DC2B4CF3A3DD3105A59FCBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A01E2F1285DB9CB909CDD5E87D6A38 /* Foundation.framework in Frameworks */,
+				3D5A88F7F4D8823B2BD7DF8EA5F1678B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,69 +103,68 @@
 		4D6B70CA36479AAE442B858216C4B96E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E6E88794641AA5162882BE62B085A0FE /* EzPopup */,
+				8DDDABED4848C8DE9F0A3548BB0961E0 /* EzPopup */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5F3C8287EB0479A4B0DBF163CA152019 /* Pods-EzPopup_Example */ = {
-			isa = PBXGroup;
-			children = (
-				54C85D0FF0B84FCCA5CBA7F07F5AFF34 /* Pods-EzPopup_Example.modulemap */,
-				F7DA0E333BBB00BE7DC423A27C22E324 /* Pods-EzPopup_Example-acknowledgements.markdown */,
-				03FA64DBF3F53B42C21D2DF78DF60877 /* Pods-EzPopup_Example-acknowledgements.plist */,
-				C76B25DF007BB23A4A0406CC6C6AB603 /* Pods-EzPopup_Example-dummy.m */,
-				9B3864F4F818D62D5A25FF74ED15763C /* Pods-EzPopup_Example-frameworks.sh */,
-				C4BA79F23ED53BB4D98AC7F864238A1C /* Pods-EzPopup_Example-Info.plist */,
-				2C67ED69C5DDBF11ED3C18C776FCE4E7 /* Pods-EzPopup_Example-umbrella.h */,
-				5EE146B2F42B923E809EA4267E056984 /* Pods-EzPopup_Example.debug.xcconfig */,
-				0C56FB6FC43DBFA083E0F30C62102CF7 /* Pods-EzPopup_Example.release.xcconfig */,
-			);
-			name = "Pods-EzPopup_Example";
-			path = "Target Support Files/Pods-EzPopup_Example";
 			sourceTree = "<group>";
 		};
 		63C44EDD372536E5F63ADB2AFC6BDC1D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F3C8287EB0479A4B0DBF163CA152019 /* Pods-EzPopup_Example */,
-				AEB44504F678CD86B0B1507B847CAD36 /* Pods-EzPopup_Tests */,
+				D47AF205C3F725566272D6855AD383E9 /* Pods-EzPopup_Example */,
+				B017ADA3D6EFD262594EF31FE19418CB /* Pods-EzPopup_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		75035054C692E104220895D1ACFE885E /* Pod */ = {
+		7E1813C56DFB3D24CD4AF2636EE36BED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D905885F7A44B128A2EDA4B2CFC4751D /* EzPopup.podspec */,
-				05AD1E920A214F261D709B1BE26E1BCD /* LICENSE */,
-				702114C8C4EE6CF23E30C76A0B8540FF /* README.md */,
+				DA3A89755F4266B6F1490D104FCA44C2 /* EzPopup.modulemap */,
+				E62FC6552B787189CE4B77436BA594C9 /* EzPopup-dummy.m */,
+				A0F7872E939195A1BDEED2596A678FAC /* EzPopup-Info.plist */,
+				303F54F7B1100D766A5513D505AC542F /* EzPopup-prefix.pch */,
+				DA031F4C0F4275D631241254DFF7857D /* EzPopup-umbrella.h */,
+				F2BC3F200EEF5E97521779B461DB2E19 /* EzPopup.debug.xcconfig */,
+				546EEF3D65715DB737B8FC915A37917A /* EzPopup.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EzPopup";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		8DDDABED4848C8DE9F0A3548BB0961E0 /* EzPopup */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				B33D16E2D2E0B92389BAAF21F6236384 /* PopupViewController.swift */,
+				DD7EEF6217827890892175847F6E1C54 /* Pod */,
+				7E1813C56DFB3D24CD4AF2636EE36BED /* Support Files */,
 			);
-			name = iOS;
+			name = EzPopup;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		AEB44504F678CD86B0B1507B847CAD36 /* Pods-EzPopup_Tests */ = {
+		B017ADA3D6EFD262594EF31FE19418CB /* Pods-EzPopup_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				67C1D809D6220A7D668F9493923D0291 /* Pods-EzPopup_Tests.modulemap */,
-				18BBB0E400AD01A0553456E2CE24F382 /* Pods-EzPopup_Tests-acknowledgements.markdown */,
-				D386424695749CD79D470105760272A3 /* Pods-EzPopup_Tests-acknowledgements.plist */,
-				A881592B2333412F21553146ACEBAF26 /* Pods-EzPopup_Tests-dummy.m */,
-				5F75C2D6A04B5288289FED4CCE6CF11D /* Pods-EzPopup_Tests-Info.plist */,
-				6F91F155C59F16BBD206E545257BB24B /* Pods-EzPopup_Tests-umbrella.h */,
-				3C3A35F5E50BA1D20EB7C07BFFA35561 /* Pods-EzPopup_Tests.debug.xcconfig */,
-				5EA56613C4BB4B7B000DFCA6473EF4D7 /* Pods-EzPopup_Tests.release.xcconfig */,
+				EE353B6E4A182F6C997B4BEE84483AA3 /* Pods-EzPopup_Tests.modulemap */,
+				A6DEF683207706C55CB8FFDC854A02C8 /* Pods-EzPopup_Tests-acknowledgements.markdown */,
+				56E35130F36209954C76916FEC8ED3E4 /* Pods-EzPopup_Tests-acknowledgements.plist */,
+				B4ED7C117FF5DABCEA0D97CB1507033E /* Pods-EzPopup_Tests-dummy.m */,
+				C861F804279DD1C9C3297A31722B4AEB /* Pods-EzPopup_Tests-Info.plist */,
+				0BBD0B77242A5631B3CD9F08931341D2 /* Pods-EzPopup_Tests-umbrella.h */,
+				321EBDFAF9FEF77BEB6F2D14B03D2A19 /* Pods-EzPopup_Tests.debug.xcconfig */,
+				6549DC6DBD77107D9CDEE95FBF2359FC /* Pods-EzPopup_Tests.release.xcconfig */,
 			);
 			name = "Pods-EzPopup_Tests";
 			path = "Target Support Files/Pods-EzPopup_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -181,42 +181,44 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6E88794641AA5162882BE62B085A0FE /* EzPopup */ = {
+		D47AF205C3F725566272D6855AD383E9 /* Pods-EzPopup_Example */ = {
 			isa = PBXGroup;
 			children = (
-				501921B394E409B1826C70C17193D38B /* PopupViewController.swift */,
-				75035054C692E104220895D1ACFE885E /* Pod */,
-				E9C3F791579C2B3B21BE360DC64577B3 /* Support Files */,
+				D1F07EE20714B95AA488773F29A489EA /* Pods-EzPopup_Example.modulemap */,
+				65BE18177C4E448E8EE008E49FB9BC62 /* Pods-EzPopup_Example-acknowledgements.markdown */,
+				B57A5236659D915B47EEAB586EFCB368 /* Pods-EzPopup_Example-acknowledgements.plist */,
+				05CC1595D0824A0021F8F8ED3C758BED /* Pods-EzPopup_Example-dummy.m */,
+				C8FF4277A6CB986698FCA294199EC7AB /* Pods-EzPopup_Example-frameworks.sh */,
+				6579468CD1049BE11882525DA90DA802 /* Pods-EzPopup_Example-Info.plist */,
+				06F3D9701745A86B834746B4AB4F94FD /* Pods-EzPopup_Example-umbrella.h */,
+				BB5936EBA2E7114A390926E59F258957 /* Pods-EzPopup_Example.debug.xcconfig */,
+				9DAD9AF6B66CBC42DF390F7E5B287CAE /* Pods-EzPopup_Example.release.xcconfig */,
 			);
-			name = EzPopup;
-			path = ../..;
+			name = "Pods-EzPopup_Example";
+			path = "Target Support Files/Pods-EzPopup_Example";
 			sourceTree = "<group>";
 		};
-		E9C3F791579C2B3B21BE360DC64577B3 /* Support Files */ = {
+		DD7EEF6217827890892175847F6E1C54 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1F6116ADBDC30F9AB4459C17CE87E199 /* EzPopup.modulemap */,
-				0761C74AA4ED02AEB9FBD3094D70700A /* EzPopup.xcconfig */,
-				FE12D74AD15FA75168B135FF6C582555 /* EzPopup-dummy.m */,
-				925DF0D14D6EC261B888237FCDF86ED3 /* EzPopup-Info.plist */,
-				10C040A29D5FF90C73C9CFF62DCCDC6C /* EzPopup-prefix.pch */,
-				4261833D805058BF3F0ED638344500DB /* EzPopup-umbrella.h */,
+				5008B7C29EB74EA77195F725F6BBD22C /* EzPopup.podspec */,
+				C8C140DED8687C76550861D4A027D801 /* LICENSE */,
+				8E7426070CFD98D1C349FAEFA2A9C05B /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EzPopup";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		EB1A8A340D1972B16315C8E89923B186 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02D01ED8A781E27740F39683A4443DFB /* EzPopup.framework */,
-				5A5081ABC64219BF955B752C3C2A0D25 /* Pods_EzPopup_Example.framework */,
-				777102DEB85ADDBDAB56338FE2620EE9 /* Pods_EzPopup_Tests.framework */,
+				7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */,
+				9007001B8592B15BDA5252C12B978903 /* Pods_EzPopup_Example.framework */,
+				A36D54AB2E1E66484BA10423B935A6C6 /* Pods_EzPopup_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,79 +226,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8843D14F8BBC22FA0223BB3016CD3DEB /* Headers */ = {
+		3CFA5BD199D19AE595D609F01B6DDDE6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2E4620F4B674B37163BC05A20906B8 /* Pods-EzPopup_Tests-umbrella.h in Headers */,
+				995C9AD0FB98B06F38D6958DCB875B1D /* Pods-EzPopup_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9719892FBF443CD005E4C365F07EE7C0 /* Headers */ = {
+		5BA212F0B4A8B1BA8DD5E44ABABF4767 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95123EC1BEA8E95FC379A56C4BB2625 /* Pods-EzPopup_Example-umbrella.h in Headers */,
+				34E60ED373398DDC75778DC8B0D769FC /* EzPopup-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAC5DF07262BFAE9E6D02507C1F42371 /* Headers */ = {
+		8068BFB6E34722C89675FD0393366A50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DBCB090692839FA9640BB28A207276 /* EzPopup-umbrella.h in Headers */,
+				B9F00EDC154A174BFB6DCB6A46CEC847 /* Pods-EzPopup_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		20B1CEE29BB3CB4F503C7B64A5782442 /* Pods-EzPopup_Example */ = {
+		08A1D84C2FADBB24163DC3D193767386 /* EzPopup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFC8853A39CD660B4C3248EEE00DDF4E /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */;
+			buildConfigurationList = 1EAA309E0B9EEC5C3E46DD4EC0CC7B9F /* Build configuration list for PBXNativeTarget "EzPopup" */;
 			buildPhases = (
-				9719892FBF443CD005E4C365F07EE7C0 /* Headers */,
-				623E67F07331F9F58D7A770C7C737E60 /* Sources */,
-				52BB26196093A263B14E4E5C2A8C2B6C /* Frameworks */,
-				6EB9A26DCBF0006D42EE67A0FD905E9B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14955C4BBD37CFBC65204A91EE3904AB /* PBXTargetDependency */,
-			);
-			name = "Pods-EzPopup_Example";
-			productName = "Pods-EzPopup_Example";
-			productReference = 5A5081ABC64219BF955B752C3C2A0D25 /* Pods_EzPopup_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4632059BB7F9991AEF0598BB528674DB /* Pods-EzPopup_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBB6981A139361ABD88B3E6E7C15B62A /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */;
-			buildPhases = (
-				8843D14F8BBC22FA0223BB3016CD3DEB /* Headers */,
-				993D273543942427D40650975CB66DF5 /* Sources */,
-				4084971262C8D3ED97DA0D5FB2F52F2B /* Frameworks */,
-				8D48DB00051A8B1801BEC141F0C9F577 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				747AFDD840F98F0739602298D6F8A6AD /* PBXTargetDependency */,
-			);
-			name = "Pods-EzPopup_Tests";
-			productName = "Pods-EzPopup_Tests";
-			productReference = 777102DEB85ADDBDAB56338FE2620EE9 /* Pods_EzPopup_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4C077553837A742F4666C704E677436 /* EzPopup */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 19CD8E6BB652C5319B2D3FE6D413355C /* Build configuration list for PBXNativeTarget "EzPopup" */;
-			buildPhases = (
-				BAC5DF07262BFAE9E6D02507C1F42371 /* Headers */,
-				E1BD4865D22A2DFCEC68D0C3398D4FE8 /* Sources */,
-				488A35A5D3F1FB299AFE142A6B81A83D /* Frameworks */,
-				2C6778377B30259E7EF3A029E3ECCD97 /* Resources */,
+				5BA212F0B4A8B1BA8DD5E44ABABF4767 /* Headers */,
+				EDA9FF9AD8B441865024B8BFF4E400B2 /* Sources */,
+				493ED6312F7553FAB215F38425F8CEAC /* Frameworks */,
+				F8DD39341301F6363B7A5E914320012E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +268,45 @@
 			);
 			name = EzPopup;
 			productName = EzPopup;
-			productReference = 02D01ED8A781E27740F39683A4443DFB /* EzPopup.framework */;
+			productReference = 7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DB404E223FE8567CA6A42B9DB46A45D /* Pods-EzPopup_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57D9657ABE5310BC9B25F6996ABDDB2 /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */;
+			buildPhases = (
+				3CFA5BD199D19AE595D609F01B6DDDE6 /* Headers */,
+				8241D4AA61575D25A1665E719BF3E62C /* Sources */,
+				BD271DEC9DC2B4CF3A3DD3105A59FCBE /* Frameworks */,
+				E7140087510F194DD96040F6D5BE248B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14438452B6900E9F943790C3D3C909B /* PBXTargetDependency */,
+			);
+			name = "Pods-EzPopup_Tests";
+			productName = "Pods-EzPopup_Tests";
+			productReference = A36D54AB2E1E66484BA10423B935A6C6 /* Pods_EzPopup_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C07C1F673E6884BAB1D006C0B95B82C8 /* Pods-EzPopup_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A9A4CC5DEA7575C26AB1B92DDE178C /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */;
+			buildPhases = (
+				8068BFB6E34722C89675FD0393366A50 /* Headers */,
+				2D3F9B613392812AF78102EBFE6B6F3A /* Sources */,
+				6103D9B329199E09092F217BAEDD3C17 /* Frameworks */,
+				6442A099F9524FFC4FD199201F4CF039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CCE96799AE66650525F6ED68E35B46 /* PBXTargetDependency */,
+			);
+			name = "Pods-EzPopup_Example";
+			productName = "Pods-EzPopup_Example";
+			productReference = 9007001B8592B15BDA5252C12B978903 /* Pods_EzPopup_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -313,44 +315,45 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = EB1A8A340D1972B16315C8E89923B186 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4C077553837A742F4666C704E677436 /* EzPopup */,
-				20B1CEE29BB3CB4F503C7B64A5782442 /* Pods-EzPopup_Example */,
-				4632059BB7F9991AEF0598BB528674DB /* Pods-EzPopup_Tests */,
+				08A1D84C2FADBB24163DC3D193767386 /* EzPopup */,
+				C07C1F673E6884BAB1D006C0B95B82C8 /* Pods-EzPopup_Example */,
+				8DB404E223FE8567CA6A42B9DB46A45D /* Pods-EzPopup_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C6778377B30259E7EF3A029E3ECCD97 /* Resources */ = {
+		6442A099F9524FFC4FD199201F4CF039 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB9A26DCBF0006D42EE67A0FD905E9B /* Resources */ = {
+		E7140087510F194DD96040F6D5BE248B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D48DB00051A8B1801BEC141F0C9F577 /* Resources */ = {
+		F8DD39341301F6363B7A5E914320012E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,50 +363,141 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		623E67F07331F9F58D7A770C7C737E60 /* Sources */ = {
+		2D3F9B613392812AF78102EBFE6B6F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB137B543B61EEFD2866CA343675A9F2 /* Pods-EzPopup_Example-dummy.m in Sources */,
+				79F7622F0DBE2C46294AB235CBE6A5DD /* Pods-EzPopup_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		993D273543942427D40650975CB66DF5 /* Sources */ = {
+		8241D4AA61575D25A1665E719BF3E62C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657B15CE9A474621639C9A79F6D0AD7F /* Pods-EzPopup_Tests-dummy.m in Sources */,
+				2755E264292294A20B2090FEAB73E210 /* Pods-EzPopup_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BD4865D22A2DFCEC68D0C3398D4FE8 /* Sources */ = {
+		EDA9FF9AD8B441865024B8BFF4E400B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF386CC7389BD0C1988D528410ED1C1 /* EzPopup-dummy.m in Sources */,
-				F4025A793F795FACE0449F515FA4A6BB /* PopupViewController.swift in Sources */,
+				F0EEB4C57FC95788D96D6CFAF990C49E /* EzPopup-dummy.m in Sources */,
+				8127D107F1BDA547AD0B549BF9762EF4 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14955C4BBD37CFBC65204A91EE3904AB /* PBXTargetDependency */ = {
+		87CCE96799AE66650525F6ED68E35B46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EzPopup;
-			target = F4C077553837A742F4666C704E677436 /* EzPopup */;
-			targetProxy = 755C946330542DAEDC9B160F5BC58F0E /* PBXContainerItemProxy */;
+			target = 08A1D84C2FADBB24163DC3D193767386 /* EzPopup */;
+			targetProxy = 1F31A50B00B387BED6946DF7CF79305C /* PBXContainerItemProxy */;
 		};
-		747AFDD840F98F0739602298D6F8A6AD /* PBXTargetDependency */ = {
+		D14438452B6900E9F943790C3D3C909B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EzPopup_Example";
-			target = 20B1CEE29BB3CB4F503C7B64A5782442 /* Pods-EzPopup_Example */;
-			targetProxy = F3B9855EE03B1D37CFBEAFCCA868ED7A /* PBXContainerItemProxy */;
+			target = C07C1F673E6884BAB1D006C0B95B82C8 /* Pods-EzPopup_Example */;
+			targetProxy = F631AE590B4FC8E28A508B72512AF971 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+		1873881D2340B5AB8626DECB5675AAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BC3F200EEF5E97521779B461DB2E19 /* EzPopup.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
+				PRODUCT_MODULE_NAME = EzPopup;
+				PRODUCT_NAME = EzPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -462,14 +556,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		1A1FED5E009F2ACBEB5F75D27A342F81 /* Debug */ = {
+		9BADE25D2B037B45C368FD3120A5694E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0761C74AA4ED02AEB9FBD3094D70700A /* EzPopup.xcconfig */;
+			baseConfigurationReference = 546EEF3D65715DB737B8FC915A37917A /* EzPopup.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -483,7 +577,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
 				PRODUCT_MODULE_NAME = EzPopup;
@@ -493,14 +587,48 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B546557752180E1997CB4EB97F39F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321EBDFAF9FEF77BEB6F2D14B03D2A19 /* Pods-EzPopup_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3048CB12F628EF1A39C79C0FEDFF2026 /* Release */ = {
+		D956CD187B26223ADF2C99F0811B1005 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C56FB6FC43DBFA083E0F30C62102CF7 /* Pods-EzPopup_Example.release.xcconfig */;
+			baseConfigurationReference = 9DAD9AF6B66CBC42DF390F7E5B287CAE /* Pods-EzPopup_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -532,9 +660,9 @@
 			};
 			name = Release;
 		};
-		4397ABC13E9E1F7E3D8D8994C4C18405 /* Release */ = {
+		DDFDA2CB3971F3ED82CC62A8CDD1211F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EA56613C4BB4B7B000DFCA6473EF4D7 /* Pods-EzPopup_Tests.release.xcconfig */;
+			baseConfigurationReference = 6549DC6DBD77107D9CDEE95FBF2359FC /* Pods-EzPopup_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -566,74 +694,9 @@
 			};
 			name = Release;
 		};
-		549BCD2E793126AD3536D78DF4FFC06A /* Release */ = {
+		E90C68037EB42BE3AD7A459D5BD8B939 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0761C74AA4ED02AEB9FBD3094D70700A /* EzPopup.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
-				PRODUCT_MODULE_NAME = EzPopup;
-				PRODUCT_NAME = EzPopup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		78BD56D84FA1210F6AD5C345D3EF0FE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C3A35F5E50BA1D20EB7C07BFFA35561 /* Pods-EzPopup_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E2A3CE25CED2FB114745D28751A7419 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EE146B2F42B923E809EA4267E056984 /* Pods-EzPopup_Example.debug.xcconfig */;
+			baseConfigurationReference = BB5936EBA2E7114A390926E59F258957 /* Pods-EzPopup_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -663,75 +726,24 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19CD8E6BB652C5319B2D3FE6D413355C /* Build configuration list for PBXNativeTarget "EzPopup" */ = {
+		1EAA309E0B9EEC5C3E46DD4EC0CC7B9F /* Build configuration list for PBXNativeTarget "EzPopup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A1FED5E009F2ACBEB5F75D27A342F81 /* Debug */,
-				549BCD2E793126AD3536D78DF4FFC06A /* Release */,
+				1873881D2340B5AB8626DECB5675AAA0 /* Debug */,
+				9BADE25D2B037B45C368FD3120A5694E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A9A4CC5DEA7575C26AB1B92DDE178C /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90C68037EB42BE3AD7A459D5BD8B939 /* Debug */,
+				D956CD187B26223ADF2C99F0811B1005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,26 +751,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07488D4657FB0A78086563621D425F8A /* Debug */,
-				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFC8853A39CD660B4C3248EEE00DDF4E /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */ = {
+		E57D9657ABE5310BC9B25F6996ABDDB2 /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E2A3CE25CED2FB114745D28751A7419 /* Debug */,
-				3048CB12F628EF1A39C79C0FEDFF2026 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBB6981A139361ABD88B3E6E7C15B62A /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78BD56D84FA1210F6AD5C345D3EF0FE2 /* Debug */,
-				4397ABC13E9E1F7E3D8D8994C4C18405 /* Release */,
+				B546557752180E1997CB4EB97F39F3D0 /* Debug */,
+				DDFDA2CB3971F3ED82CC62A8CDD1211F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
