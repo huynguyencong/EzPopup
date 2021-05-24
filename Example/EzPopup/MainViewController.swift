@@ -14,6 +14,8 @@ class MainViewController: UIViewController {
     let customAlertVC = CustomAlertViewController.instantiate()
     let pickerVC = NumberPickerViewController.instantiate()
     
+    @IBOutlet weak var bottomButton: UIButton!
+    
     // MARK: - Actions
 
     @IBAction func showAtCenterButtonTapped(_ sender: Any) {
@@ -54,6 +56,22 @@ class MainViewController: UIViewController {
         present(popupVC, animated: true, completion: nil)
     }
     
+    @IBAction func showPopUpBelowButtonTapped(_ sender: Any) {
+        guard let pickerVC = pickerVC else { return }
+        
+        pickerVC.delegate = self
+        
+        let popupVC = PopupViewController(
+            contentController: pickerVC,
+            position: .offsetFromView(CGPoint(x: 0, y: bottomButton.frame.height + 3), bottomButton),
+            popupWidth: 100,
+            popupHeight: 200
+        )
+        
+        popupVC.canTapOutsideToDismiss = false
+        popupVC.cornerRadius = 5
+        present(popupVC, animated: true, completion: nil)
+    }
 }
 
 extension MainViewController: NumberPickerViewControllerDelegate {
