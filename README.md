@@ -14,8 +14,8 @@ If you are struggling in finding a way to show a view or view controller as a po
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Compatibility
-- iOS 9 and later.
-- Swift 5.0 and later (for earlier Swift version, please use earlier ImageScrollView version).
+- iOS 13 and later.
+- Swift 5.1 and later (for earlier Swift version, please use earlier ImageScrollView version).
 
 ## Installation
 
@@ -29,18 +29,22 @@ pod 'EzPopup'
 ## Usage
 Using pop up view controller is very simple:
 
+Firstly, init a PopupViewController with a view or view controller you want to show:
+
 ```
 // init YourViewController
-let contentVC = ...
+let contentViewController = ...
 
-// Init popup view controller with content is your content view controller
-let popupVC = PopupViewController(contentController: contentVC, popupWidth: 100, popupHeight: 200)
+// Init popup view controller with content is your content view controller. 
+// You can let your content view determine pop up size by using its intrinsic size by setting popupWidth and popupHeight nil.
+// You can also set position by the position param. If you want show a pop up below a view, use .offsetFromView for position param.
+let popupVC = PopupViewController(contentController: contentViewController, popupWidth: 100, popupHeight: 200)
 
 // show it by call present(_ , animated:) method from a current UIViewController
 present(popupVC, animated: true)
 ```
 
-You can custom some properties of `PopupViewController` if you'd like. For example:
+Optional: You can custom some properties of `PopupViewController` if you'd like. For example:
 
 ```
 popupVC.backgroundAlpha = 0.3
@@ -49,6 +53,9 @@ popupVC.canTapOutsideToDismiss = true
 popupVC.cornerRadius = 10
 popupVC.shadowEnabled = true
 ```
+
+## SwiftUI version
+[SwiftUI Popup](https://github.com/huynguyencong/ToastSwiftUI)
 
 ## Author
 
