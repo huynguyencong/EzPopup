@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175F76BE58A364CDB048165CD2855538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2755E264292294A20B2090FEAB73E210 /* Pods-EzPopup_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ED7C117FF5DABCEA0D97CB1507033E /* Pods-EzPopup_Tests-dummy.m */; };
+		0B8941C7005CFF0FD62B1C79E63466E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34E60ED373398DDC75778DC8B0D769FC /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA031F4C0F4275D631241254DFF7857D /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D5A88F7F4D8823B2BD7DF8EA5F1678B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		64DADB402EF5F83CA27384169BF6E944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		79F7622F0DBE2C46294AB235CBE6A5DD /* Pods-EzPopup_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC1595D0824A0021F8F8ED3C758BED /* Pods-EzPopup_Example-dummy.m */; };
+		68ED10F88951CFDE76A6F3C2061855C1 /* Pods-EzPopup_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC1595D0824A0021F8F8ED3C758BED /* Pods-EzPopup_Example-dummy.m */; };
 		8127D107F1BDA547AD0B549BF9762EF4 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D16E2D2E0B92389BAAF21F6236384 /* PopupViewController.swift */; };
-		995C9AD0FB98B06F38D6958DCB875B1D /* Pods-EzPopup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD0B77242A5631B3CD9F08931341D2 /* Pods-EzPopup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9F00EDC154A174BFB6DCB6A46CEC847 /* Pods-EzPopup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F3D9701745A86B834746B4AB4F94FD /* Pods-EzPopup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D1D423A4A120FD6DEE725B36395085 /* Pods-EzPopup_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ED7C117FF5DABCEA0D97CB1507033E /* Pods-EzPopup_Tests-dummy.m */; };
+		A182CEF7C4099000D33EA7AF6701F7E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ABAD5544C116957725F130874EA37783 /* Pods-EzPopup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD0B77242A5631B3CD9F08931341D2 /* Pods-EzPopup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09FC9B2414904ED72449769CFAE625A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5432B405FF5C665B75043C48EBD8CFF /* Pods-EzPopup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F3D9701745A86B834746B4AB4F94FD /* Pods-EzPopup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0EEB4C57FC95788D96D6CFAF990C49E /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62FC6552B787189CE4B77436BA594C9 /* EzPopup-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F31A50B00B387BED6946DF7CF79305C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08A1D84C2FADBB24163DC3D193767386;
-			remoteInfo = EzPopup;
-		};
-		F631AE590B4FC8E28A508B72512AF971 /* PBXContainerItemProxy */ = {
+		045C2D006DF58FAEADBC064B26CF9999 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C07C1F673E6884BAB1D006C0B95B82C8;
 			remoteInfo = "Pods-EzPopup_Example";
+		};
+		651197C8A93244F119E1ADC6F9F0CEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1D84C2FADBB24163DC3D193767386;
+			remoteInfo = EzPopup;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,7 +41,6 @@
 		06F3D9701745A86B834746B4AB4F94FD /* Pods-EzPopup_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Example-umbrella.h"; sourceTree = "<group>"; };
 		0BBD0B77242A5631B3CD9F08931341D2 /* Pods-EzPopup_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EzPopup_Tests-umbrella.h"; sourceTree = "<group>"; };
 		303F54F7B1100D766A5513D505AC542F /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		321EBDFAF9FEF77BEB6F2D14B03D2A19 /* Pods-EzPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5008B7C29EB74EA77195F725F6BBD22C /* EzPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EzPopup.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		546EEF3D65715DB737B8FC915A37917A /* EzPopup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.release.xcconfig; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		6549DC6DBD77107D9CDEE95FBF2359FC /* Pods-EzPopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EzPopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6579468CD1049BE11882525DA90DA802 /* Pods-EzPopup_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EzPopup_Example-Info.plist"; sourceTree = "<group>"; };
 		65BE18177C4E448E8EE008E49FB9BC62 /* Pods-EzPopup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EzPopup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7426070CFD98D1C349FAEFA2A9C05B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9007001B8592B15BDA5252C12B978903 /* Pods_EzPopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EzPopup_Example.framework; path = "Pods-EzPopup_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,27 +73,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		089FF61C599241BB1A66E7254936BA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8941C7005CFF0FD62B1C79E63466E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		493ED6312F7553FAB215F38425F8CEAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175F76BE58A364CDB048165CD2855538 /* Foundation.framework in Frameworks */,
+				C09FC9B2414904ED72449769CFAE625A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6103D9B329199E09092F217BAEDD3C17 /* Frameworks */ = {
+		FA074A714536E9E70BD598E7B39AFDE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DADB402EF5F83CA27384169BF6E944 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD271DEC9DC2B4CF3A3DD3105A59FCBE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D5A88F7F4D8823B2BD7DF8EA5F1678B /* Foundation.framework in Frameworks */,
+				A182CEF7C4099000D33EA7AF6701F7E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +106,14 @@
 				8DDDABED4848C8DE9F0A3548BB0961E0 /* EzPopup */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		63C44EDD372536E5F63ADB2AFC6BDC1D /* Targets Support Files */ = {
@@ -159,14 +167,6 @@
 			path = "Target Support Files/Pods-EzPopup_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +181,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,11 +226,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3CFA5BD199D19AE595D609F01B6DDDE6 /* Headers */ = {
+		35DB628418866336D3AE27DA8EC31608 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				995C9AD0FB98B06F38D6958DCB875B1D /* Pods-EzPopup_Tests-umbrella.h in Headers */,
+				C5432B405FF5C665B75043C48EBD8CFF /* Pods-EzPopup_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,11 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8068BFB6E34722C89675FD0393366A50 /* Headers */ = {
+		C7D4A5216801FD29DFD85BD5FD74AFEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9F00EDC154A174BFB6DCB6A46CEC847 /* Pods-EzPopup_Example-umbrella.h in Headers */,
+				ABAD5544C116957725F130874EA37783 /* Pods-EzPopup_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,17 +273,17 @@
 		};
 		8DB404E223FE8567CA6A42B9DB46A45D /* Pods-EzPopup_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E57D9657ABE5310BC9B25F6996ABDDB2 /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */;
+			buildConfigurationList = A8D3FB02AD3DC55737FCF7D7A51BA179 /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */;
 			buildPhases = (
-				3CFA5BD199D19AE595D609F01B6DDDE6 /* Headers */,
-				8241D4AA61575D25A1665E719BF3E62C /* Sources */,
-				BD271DEC9DC2B4CF3A3DD3105A59FCBE /* Frameworks */,
-				E7140087510F194DD96040F6D5BE248B /* Resources */,
+				C7D4A5216801FD29DFD85BD5FD74AFEF /* Headers */,
+				BB787AD4D5B2990FB5FA7A91DDA6A124 /* Sources */,
+				089FF61C599241BB1A66E7254936BA33 /* Frameworks */,
+				32E35936651070D03155A7EDF9DB7DF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D14438452B6900E9F943790C3D3C909B /* PBXTargetDependency */,
+				3E462E7B39F51643EFA12A1E7C60E0A4 /* PBXTargetDependency */,
 			);
 			name = "Pods-EzPopup_Tests";
 			productName = "Pods-EzPopup_Tests";
@@ -292,17 +292,17 @@
 		};
 		C07C1F673E6884BAB1D006C0B95B82C8 /* Pods-EzPopup_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26A9A4CC5DEA7575C26AB1B92DDE178C /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */;
+			buildConfigurationList = 4BD3D639BB1E9E1C2BB452D98567AA7B /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */;
 			buildPhases = (
-				8068BFB6E34722C89675FD0393366A50 /* Headers */,
-				2D3F9B613392812AF78102EBFE6B6F3A /* Sources */,
-				6103D9B329199E09092F217BAEDD3C17 /* Frameworks */,
-				6442A099F9524FFC4FD199201F4CF039 /* Resources */,
+				35DB628418866336D3AE27DA8EC31608 /* Headers */,
+				2B4184E4C2E10D0E1B05FCFC7F32A437 /* Sources */,
+				FA074A714536E9E70BD598E7B39AFDE5 /* Frameworks */,
+				504E831F2529F71B97CA80562416E88D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87CCE96799AE66650525F6ED68E35B46 /* PBXTargetDependency */,
+				6E87AFDE3AA7223EB5884155B9DE7174 /* PBXTargetDependency */,
 			);
 			name = "Pods-EzPopup_Example";
 			productName = "Pods-EzPopup_Example";
@@ -339,14 +339,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6442A099F9524FFC4FD199201F4CF039 /* Resources */ = {
+		32E35936651070D03155A7EDF9DB7DF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7140087510F194DD96040F6D5BE248B /* Resources */ = {
+		504E831F2529F71B97CA80562416E88D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,19 +363,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D3F9B613392812AF78102EBFE6B6F3A /* Sources */ = {
+		2B4184E4C2E10D0E1B05FCFC7F32A437 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F7622F0DBE2C46294AB235CBE6A5DD /* Pods-EzPopup_Example-dummy.m in Sources */,
+				68ED10F88951CFDE76A6F3C2061855C1 /* Pods-EzPopup_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8241D4AA61575D25A1665E719BF3E62C /* Sources */ = {
+		BB787AD4D5B2990FB5FA7A91DDA6A124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2755E264292294A20B2090FEAB73E210 /* Pods-EzPopup_Tests-dummy.m in Sources */,
+				A0D1D423A4A120FD6DEE725B36395085 /* Pods-EzPopup_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,26 +391,96 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87CCE96799AE66650525F6ED68E35B46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EzPopup;
-			target = 08A1D84C2FADBB24163DC3D193767386 /* EzPopup */;
-			targetProxy = 1F31A50B00B387BED6946DF7CF79305C /* PBXContainerItemProxy */;
-		};
-		D14438452B6900E9F943790C3D3C909B /* PBXTargetDependency */ = {
+		3E462E7B39F51643EFA12A1E7C60E0A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EzPopup_Example";
 			target = C07C1F673E6884BAB1D006C0B95B82C8 /* Pods-EzPopup_Example */;
-			targetProxy = F631AE590B4FC8E28A508B72512AF971 /* PBXContainerItemProxy */;
+			targetProxy = 045C2D006DF58FAEADBC064B26CF9999 /* PBXContainerItemProxy */;
+		};
+		6E87AFDE3AA7223EB5884155B9DE7174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EzPopup;
+			target = 08A1D84C2FADBB24163DC3D193767386 /* EzPopup */;
+			targetProxy = 651197C8A93244F119E1ADC6F9F0CEC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1873881D2340B5AB8626DECB5675AAA0 /* Debug */ = {
+		7C288BBFBBAF150CE1F00123720E6B32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2BC3F200EEF5E97521779B461DB2E19 /* EzPopup.debug.xcconfig */;
+			baseConfigurationReference = BB5936EBA2E7114A390926E59F258957 /* Pods-EzPopup_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FB46BC648A16118D5A0FD8095B97F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAD9AF6B66CBC42DF390F7E5B287CAE /* Pods-EzPopup_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85E8415BAB2CEE97E0734B923609C5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546EEF3D65715DB737B8FC915A37917A /* EzPopup.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -422,7 +492,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
 				PRODUCT_MODULE_NAME = EzPopup;
@@ -432,75 +502,17 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -523,6 +535,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -548,7 +561,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -561,44 +574,75 @@
 			};
 			name = Debug;
 		};
-		9BADE25D2B037B45C368FD3120A5694E /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 546EEF3D65715DB737B8FC915A37917A /* EzPopup.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
-				PRODUCT_MODULE_NAME = EzPopup;
-				PRODUCT_NAME = EzPopup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B546557752180E1997CB4EB97F39F3D0 /* Debug */ = {
+		B98DC86B66733F58B30AF30893D51692 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 321EBDFAF9FEF77BEB6F2D14B03D2A19 /* Pods-EzPopup_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6549DC6DBD77107D9CDEE95FBF2359FC /* Pods-EzPopup_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -609,7 +653,42 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F244B57EB3E80CC03D25AB69B7C30E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321EBDFAF9FEF77BEB6F2D14B03D2A19 /* Pods-EzPopup_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.modulemap";
@@ -626,12 +705,12 @@
 			};
 			name = Debug;
 		};
-		D956CD187B26223ADF2C99F0811B1005 /* Release */ = {
+		F261006754F3C35C697370481C3ECCFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DAD9AF6B66CBC42DF390F7E5B287CAE /* Pods-EzPopup_Example.release.xcconfig */;
+			baseConfigurationReference = F2BC3F200EEF5E97521779B461DB2E19 /* EzPopup.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -640,87 +719,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
+				PRODUCT_MODULE_NAME = EzPopup;
+				PRODUCT_NAME = EzPopup;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DDFDA2CB3971F3ED82CC62A8CDD1211F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6549DC6DBD77107D9CDEE95FBF2359FC /* Pods-EzPopup_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Tests/Pods-EzPopup_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E90C68037EB42BE3AD7A459D5BD8B939 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB5936EBA2E7114A390926E59F258957 /* Pods-EzPopup_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EzPopup_Example/Pods-EzPopup_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -733,17 +743,8 @@
 		1EAA309E0B9EEC5C3E46DD4EC0CC7B9F /* Build configuration list for PBXNativeTarget "EzPopup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1873881D2340B5AB8626DECB5675AAA0 /* Debug */,
-				9BADE25D2B037B45C368FD3120A5694E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26A9A4CC5DEA7575C26AB1B92DDE178C /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E90C68037EB42BE3AD7A459D5BD8B939 /* Debug */,
-				D956CD187B26223ADF2C99F0811B1005 /* Release */,
+				F261006754F3C35C697370481C3ECCFD /* Debug */,
+				85E8415BAB2CEE97E0734B923609C5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,17 +752,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E57D9657ABE5310BC9B25F6996ABDDB2 /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */ = {
+		4BD3D639BB1E9E1C2BB452D98567AA7B /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B546557752180E1997CB4EB97F39F3D0 /* Debug */,
-				DDFDA2CB3971F3ED82CC62A8CDD1211F /* Release */,
+				7C288BBFBBAF150CE1F00123720E6B32 /* Debug */,
+				7FB46BC648A16118D5A0FD8095B97F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D3FB02AD3DC55737FCF7D7A51BA179 /* Build configuration list for PBXNativeTarget "Pods-EzPopup_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F244B57EB3E80CC03D25AB69B7C30E35 /* Debug */,
+				B98DC86B66733F58B30AF30893D51692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

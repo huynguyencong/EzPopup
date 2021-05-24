@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -53,7 +54,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="9WW-aM-Hwe" secondAttribute="trailing" constant="16" id="DoQ-fW-cT7"/>
                             <constraint firstItem="9WW-aM-Hwe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="dHK-LR-y1Q"/>
@@ -119,7 +120,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lCW-Vh-j6J" firstAttribute="top" secondItem="oSt-Vl-dTE" secondAttribute="bottom" constant="20" id="AQd-uI-vQo"/>
                             <constraint firstItem="oSt-Vl-dTE" firstAttribute="leading" secondItem="50m-k9-EK0" secondAttribute="leading" id="BxF-nS-oJi"/>
@@ -165,7 +166,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="yOu-SU-Ri1" secondAttribute="trailing" id="Kit-t3-bff"/>
                             <constraint firstItem="yOu-SU-Ri1" firstAttribute="leading" secondItem="F9y-ae-UuR" secondAttribute="leading" id="N3S-7J-hrs"/>
@@ -182,4 +183,9 @@
             <point key="canvasLocation" x="1465" y="32"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

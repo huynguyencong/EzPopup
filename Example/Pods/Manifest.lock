@@ -1,5 +1,5 @@
 PODS:
-  - EzPopup (1.1)
+  - EzPopup (1.2)
 
 DEPENDENCIES:
   - EzPopup (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EzPopup: b959cfb0d70d782a28e770a96c454df0401467c7
+  EzPopup: e03b6edca7d70632104196cadb0bd963f95c2875
 
-PODFILE CHECKSUM: ffd6554903316dbaa8493b3b5c88fc2a338cfcdc
+PODFILE CHECKSUM: 0ee19e215d7eeadfeb8df3fc4703fc8f3ebd505c
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
