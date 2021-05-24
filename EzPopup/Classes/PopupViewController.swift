@@ -47,6 +47,9 @@ public class PopupViewController: UIViewController {
         
         /// Right anchor, align center Y with right padding param
         case right(CGFloat)
+        
+        /// Top left offset to a view
+        case offsetFromView(CGPoint? = nil, UIView)
     }
     
     /// Popup width, it's nil if width is determined by view's intrinsic size
@@ -83,6 +86,7 @@ public class PopupViewController: UIViewController {
     public weak var delegate: PopupViewControllerDelegate?
     
     private var containerView = UIView()
+    private var isViewDidLayoutSubviewsCalled = false
     
     // MARK: -
     
@@ -137,8 +141,19 @@ public class PopupViewController: UIViewController {
         super.viewDidLoad()
 
         setupUI()
-        setupViews()
         addDismissGesture()
+    }
+    
+    public override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        if isViewDidLayoutSubviewsCalled == false {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                self.setupViews()
+            }
+        }
+        
+        isViewDidLayoutSubviewsCalled = true
     }
     
     // MARK: - Setup
@@ -212,7 +227,7 @@ public class PopupViewController: UIViewController {
             addCenterPositionConstraints(offset: offset)
             
         case .topLeft(let offset):
-            addTopLeftPositionConstraints(offset: offset)
+            addTopLeftPositionConstraints(offset: offset, anchorView: nil)
             
         case .topRight(let offset):
             addTopRightPositionConstraints(offset: offset)
@@ -234,6 +249,9 @@ public class PopupViewController: UIViewController {
             
         case .right(let offset):
             addRightPositionConstraints(offset: offset)
+            
+        case .offsetFromView(let offset, let anchorView):
+            addTopLeftPositionConstraints(offset: offset, anchorView: anchorView)
         }
     }
     
@@ -243,9 +261,16 @@ public class PopupViewController: UIViewController {
         NSLayoutConstraint.activate([centerXConstraint, centerYConstraint])
     }
     
-    private func addTopLeftPositionConstraints(offset: CGPoint?) {
-        let topConstraint = NSLayoutConstraint(item: containerView, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: offset?.y ?? 0)
-        let leftConstraint = NSLayoutConstraint(item: containerView, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: offset?.x ?? 0)
+    private func addTopLeftPositionConstraints(offset: CGPoint?, anchorView: UIView?) {
+        var position: CGPoint = offset ?? .zero
+        
+        if let anchorView = anchorView {
+            let anchorViewPosition = view.convert(CGPoint.zero, from: anchorView)
+            position = CGPoint(x: position.x + anchorViewPosition.x, y: position.y + anchorViewPosition.y)
+        }
+        
+        let topConstraint = NSLayoutConstraint(item: containerView, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: position.y)
+        let leftConstraint = NSLayoutConstraint(item: containerView, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: position.x)
         NSLayoutConstraint.activate([topConstraint, leftConstraint])
     }
     
