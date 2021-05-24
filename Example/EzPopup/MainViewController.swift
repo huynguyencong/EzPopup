@@ -24,7 +24,7 @@ class MainViewController: UIViewController {
         customAlertVC.titleString = "Congratulation"
         customAlertVC.messageString = "You just showed a custom alert view controller."
         
-        let popupVC = PopupViewController(contentController: customAlertVC, popupWidth: 300)
+        let popupVC = PopupViewController(contentController: customAlertVC, popupWidth: 300, popupHeight: nil)
         popupVC.cornerRadius = 5
         popupVC.delegate = self
         present(popupVC, animated: true, completion: nil)
