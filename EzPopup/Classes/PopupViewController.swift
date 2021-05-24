@@ -18,7 +18,7 @@ public extension PopupViewControllerDelegate {
     func popupViewControllerDidDismissByTapGesture(_ sender: PopupViewController) {}
 }
 
-public class PopupViewController: UIViewController {
+open class PopupViewController: UIViewController {
     
     public enum PopupPosition {
         /// Align center X, center Y with offset param
@@ -53,37 +53,37 @@ public class PopupViewController: UIViewController {
     }
     
     /// Popup width, it's nil if width is determined by view's intrinsic size
-    private(set) public var popupWidth: CGFloat?
+    private(set) open var popupWidth: CGFloat?
     
     /// Popup height, it's nil if width is determined by view's intrinsic size
-    private(set) public var popupHeight: CGFloat?
+    private(set) open var popupHeight: CGFloat?
     
     /// Popup position, default is center
-    private(set) public var position: PopupPosition = .center(nil)
+    private(set) open var position: PopupPosition = .center(nil)
     
     /// Background alpha, default is 0.5
-    public var backgroundAlpha: CGFloat = 0.5
+    open var backgroundAlpha: CGFloat = 0.5
     
     /// Background color, default is black
-    public var backgroundColor = UIColor.black
+    open var backgroundColor = UIColor.black
     
     /// Allow tap outside popup to dismiss, default is true
-    public var canTapOutsideToDismiss = true
+    open var canTapOutsideToDismiss = true
     
     /// Corner radius, default is 0 (no rounded corner)
-    public var cornerRadius: CGFloat = 0
+    open var cornerRadius: CGFloat = 0
     
     /// Shadow enabled, default is true
-    public var shadowEnabled = true
+    open var shadowEnabled = true
     
     /// The pop up view controller. It's not mandatory.
-    private(set) public var contentController: UIViewController?
+    private(set) open var contentController: UIViewController?
     
     /// The pop up view
-    private(set) public var contentView: UIView?
+    private(set) open var contentView: UIView?
     
     /// The delegate to receive pop up event
-    public weak var delegate: PopupViewControllerDelegate?
+    open weak var delegate: PopupViewControllerDelegate?
     
     private var containerView = UIView()
     private var isViewDidLayoutSubviewsCalled = false
@@ -137,14 +137,14 @@ public class PopupViewController: UIViewController {
         modalTransitionStyle = .crossDissolve
     }
 
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         setupUI()
         addDismissGesture()
     }
     
-    public override func viewDidLayoutSubviews() {
+    open override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         if isViewDidLayoutSubviewsCalled == false {
