@@ -15,7 +15,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Compatibility
 - iOS 13 and later.
-- Swift 5.1 and later (for earlier Swift version, please use earlier ImageScrollView version).
+- Swift 5.1 and later (for earlier Swift version, please use earlier `ImageScrollView` version).
 
 ## Installation
 
@@ -29,9 +29,9 @@ pod 'EzPopup'
 ## Usage
 Using pop up view controller is very simple:
 
-Firstly, init a PopupViewController with a view or view controller you want to show:
+Firstly, init a `PopupViewController` with a view or view controller you want to show:
 
-```
+```swift
 // init YourViewController
 let contentViewController = ...
 
@@ -46,7 +46,7 @@ present(popupVC, animated: true)
 
 Optional: You can custom some properties of `PopupViewController` if you'd like. For example:
 
-```
+```swift
 popupVC.backgroundAlpha = 0.3
 popupVC.backgroundColor = .black
 popupVC.canTapOutsideToDismiss = true
