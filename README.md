@@ -7,7 +7,8 @@
 ## What is EzPopup
 If you are struggling in finding a way to show a view or view controller as a pop up on your iOS devices, this pod is for you. With EzPopup, you can show popup easily, like below:
 
-<img src="https://raw.githubusercontent.com/huynguyencong/EzPopup/develop/Images/custom-alert-at-center.png" alt="Show custom popup at center" width="341px" height="606px"/> <img src="https://raw.githubusercontent.com/huynguyencong/EzPopup/develop/Images/custom-picker-at-bottom.png" alt="Show custom popup at bottom" width="341px" height="606px"/>
+![Custom alert at center](Images/custom-alert-at-center.png)
+![Custom picker at bottom](Images/custom-picker-at-bottom.png)
 
 ## Example
 
