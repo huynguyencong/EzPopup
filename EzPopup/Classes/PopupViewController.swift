@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol PopupViewControllerDelegate: class {
+public protocol PopupViewControllerDelegate: AnyObject {
     
     /// It is called when pop up is dismissed by tap outside
     func popupViewControllerDidDismissByTapGesture(_ sender: PopupViewController)
