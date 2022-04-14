@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol NumberPickerViewControllerDelegate: class {
+protocol NumberPickerViewControllerDelegate: AnyObject {
     func numberPickerViewController(sender: NumberPickerViewController, didSelectNumber number: Int)
 }
 
